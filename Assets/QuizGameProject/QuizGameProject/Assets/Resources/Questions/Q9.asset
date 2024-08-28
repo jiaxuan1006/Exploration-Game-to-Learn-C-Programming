@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe1e3773ddaa9ce48835846fb8e11c7f, type: 3}
+  m_Name: Q9
+  m_EditorClassIdentifier: 
+  _info: '"Regarding the following statement which of the statements is true?
+
+
+    const
+    int a = 100;"'
+  _answers:
+  - _info: Constructs an integer type variable with an as identifier and 100 as the
+      value
+    _isCorrect: 0
+  - _info: Declares a construction a with 100 as its initial value
+    _isCorrect: 0
+  - _info: Declares a constant a whose value will be 100
+    _isCorrect: 1
+  - _info: Declares a variable a with 100 as its initial value
+    _isCorrect: 0
+  _useTimer: 0
+  _timer: 0
+  _answerType: 0
+  _addScore: 10
